@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 50%;
   padding: 0 10px;
   width: 100%;
 }
@@ -193,17 +193,16 @@ img {
 }
 
 .site-name {
-  margin: 0;
+  margin: 5px 0;
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
 }
 
 .site-description {
-  margin: -5px 0 0 0;
+  margin: -8px 0 0 3px;
   color: $gray;
   font-size: 16px;
 
@@ -261,6 +260,10 @@ nav {
     color: $gray;
     font-size: 22px;
     font-style: italic;
+  }
+
+  iframe {
+    vertical-align: middle;
   }
 
   .comments {
